@@ -1841,7 +1841,7 @@ class TestMinitestUnitTestCase < Minitest::Test
                when maglev? then
                  %w[test_test2 test_test3 test_test1]
                else
-                 %w[test_test2 test_test1 test_test3]
+                 %w[test_test1 test_test2 test_test3]
                end
     assert_equal expected, sample_test_case.runnable_methods
   end
